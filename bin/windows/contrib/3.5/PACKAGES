@@ -8,7 +8,7 @@ License: MIT + file LICENCE
 Archs: i386, x64
 
 Package: readspss
-Version: 0.12
+Version: 0.13
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets
