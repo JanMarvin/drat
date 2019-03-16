@@ -1,8 +1,8 @@
-## Drat Repo for JanMarvin
+# Drat Repo for JanMarvin
 
 Since I neither have enough time nor am I willing enough to bother with CRAN for
-my builds, I am providing sources and Windows binaries for my sources on this
-drat repo.
+my builds, I am providing ziped sources and binaries for Windows of my 
+R-packages in this drat repo.
 
 You can include it using
 
@@ -10,7 +10,26 @@ You can include it using
 drat::addRepo("JanMarvin")
 ```
 
-Currently it contains `nlsur` and `readspss`.
+Afterwards you can install simply using `install.packages()`.
 
-Packages are known to build on MacOs too, but I do not own a Mac and since have
+Currently it contains [`nlsur`](https://github.com/JanMarvin/nlsur) and [`readspss`](https://github.com/JanMarvin/readspss).
+
+
+## R-packages in this repo
+
+### nlsur
+
+R-package for nonlinear seemingly unrelated estimation. This allows estimation
+of demand systems in R (like the famous almost ideal demand system).
+
+### readspss
+
+R-package to import/export SPSS sav and por files to and from R. The package is
+written from scratch using code snippets from different other sources PSPP/TDA
+and foreign. The package should import every por and sav file out there in the
+wild.
+
+## Binary builds
+
+Packages are known to build on MacOS too, but I do not own a Mac and since have
 no way to provide Mac binaries.
