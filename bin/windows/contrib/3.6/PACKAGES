@@ -5,8 +5,7 @@ Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 License: MIT + file LICENCE
-MD5sum: f03c9a4eeac31ec1ea443fee7cf3b4ed
-NeedsCompilation: yes
+Archs: i386, x64
 
 Package: readspss
 Version: 0.13
@@ -14,5 +13,4 @@ Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets
 License: GPL-2 | file LICENSE
-MD5sum: b8479463d5880cb94c953fc753ab19dc
-NeedsCompilation: yes
+Archs: i386, x64
