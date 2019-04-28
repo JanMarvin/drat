@@ -7,7 +7,7 @@ drat repo.
 You can include it using
 
 ```{R}
-drat::addrepo("JanMarvin")
+drat::addRepo("JanMarvin")
 ```
 
 Currently it contains `nlsur` and `readspss`.
