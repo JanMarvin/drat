@@ -5,7 +5,7 @@ Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 License: MIT + file LICENCE
-MD5sum: f03c9a4eeac31ec1ea443fee7cf3b4ed
+MD5sum: b7f5ea9c1f708c4f5474c7f78c87ed73
 NeedsCompilation: yes
 
 Package: readspss
