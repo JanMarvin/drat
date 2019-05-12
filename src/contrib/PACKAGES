@@ -1,11 +1,11 @@
 Package: nlsur
-Version: 0.6.5
+Version: 0.7
 Depends: R (>= 3.0.1)
 Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 License: MIT + file LICENCE
-MD5sum: f03c9a4eeac31ec1ea443fee7cf3b4ed
+MD5sum: 40f5409ea078ce498dc44abf29ccf055
 NeedsCompilation: yes
 
 Package: readspss
