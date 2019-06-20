@@ -19,12 +19,12 @@ Currently it contains [`nlsur`](https://github.com/JanMarvin/nlsur),
 
 ## R-packages in this repo
 
-### nlsur
+### [nlsur](https://github.com/JanMarvin/nlsur)
 
 R-package for nonlinear seemingly unrelated estimation. This allows estimation
 of demand systems in R (like the famous almost ideal demand system).
 
-### readspss
+### [readspss](https://github.com/JanMarvin/readspss)
 
 R-package to import/export SPSS sav and por files to and from R. The package is
 written from scratch using code snippets from different other sources PSPP/TDA
