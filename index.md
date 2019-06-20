@@ -31,7 +31,7 @@ written from scratch using code snippets from different other sources PSPP/TDA
 and foreign. The package should import every por and sav file out there in the
 wild.
 
-### readstata13
+### [readstata13](https://github.com/sjewo/readstata13)
 
 R-package to import/export Stata dta files to and from R. The package source
 code is located at [sjewo/readstata13](https://github.com/sjewo/readstata13).
