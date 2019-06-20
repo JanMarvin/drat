@@ -1,0 +1,24 @@
+Package: nlsur
+Version: 0.7
+Depends: R (>= 3.0.1)
+Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: MIT + file LICENCE
+Archs: i386, x64
+
+Package: readspss
+Version: 0.13
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL-2 | file LICENSE
+Archs: i386, x64
+
+Package: readstata13
+Version: 0.9.3
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: testthat, knitr, rmarkdown
+License: GPL-2 | file LICENSE
+Archs: i386, x64
