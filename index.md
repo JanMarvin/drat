@@ -12,7 +12,9 @@ drat::addRepo("JanMarvin")
 
 Afterwards you can install simply using `install.packages()`.
 
-Currently it contains [`nlsur`](https://github.com/JanMarvin/nlsur) and [`readspss`](https://github.com/JanMarvin/readspss).
+Currently it contains [`nlsur`](https://github.com/JanMarvin/nlsur), 
+[`readspss`](https://github.com/JanMarvin/readspss) and
+[`readstata13`](https://github.com/sjewo/readstata13).
 
 
 ## R-packages in this repo
@@ -28,6 +30,11 @@ R-package to import/export SPSS sav and por files to and from R. The package is
 written from scratch using code snippets from different other sources PSPP/TDA
 and foreign. The package should import every por and sav file out there in the
 wild.
+
+### readstata13
+
+R-package to import/export Stata dta files to and from R. The package source
+code is located at [sjewo/readstata13](https://github.com/sjewo/readstata13).
 
 ## Binary builds
 
