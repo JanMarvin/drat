@@ -9,10 +9,19 @@ MD5sum: 40f5409ea078ce498dc44abf29ccf055
 NeedsCompilation: yes
 
 Package: readspss
-Version: 0.13
+Version: 0.14
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets
 License: GPL-2 | file LICENSE
-MD5sum: b8479463d5880cb94c953fc753ab19dc
+MD5sum: d4f98ae2f6b49582ba970c17b15324f7
+NeedsCompilation: yes
+
+Package: readstata13
+Version: 0.9.3
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-2 | file LICENSE
+MD5sum: c2b5b74c00a0e4a88aafffa9b2f413a3
 NeedsCompilation: yes
