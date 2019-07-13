@@ -26,10 +26,10 @@ of demand systems in R (like the famous almost ideal demand system).
 
 ### [readspss](https://github.com/JanMarvin/readspss)
 
-R-package to import/export SPSS sav and por files to and from R. The package is
-written from scratch using code snippets from different other sources PSPP/TDA
-and foreign. The package should import every por and sav file out there in the
-wild.
+R-package to import/export SPSS sav, zsav and por files to and from R. The
+package is written from scratch using code snippets from different other 
+sources PSPP, TDA and foreign. The package should import every por, zsav and
+sav file out there in the wild.
 
 ### [readstata13](https://github.com/sjewo/readstata13)
 
