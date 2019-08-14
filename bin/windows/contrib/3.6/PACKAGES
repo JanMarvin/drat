@@ -19,6 +19,6 @@ Package: readstata13
 Version: 0.9.3
 Imports: Rcpp (>= 0.11.5)
 LinkingTo: Rcpp
-Suggests: testthat, knitr, rmarkdown
+Suggests: testthat
 License: GPL-2 | file LICENSE
 Archs: i386, x64
