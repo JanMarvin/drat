@@ -38,5 +38,5 @@ code is located at [sjewo/readstata13](https://github.com/sjewo/readstata13).
 
 ## Binary builds
 
-Packages are known to build on MacOS too, but I do not own a Mac and since have
+Packages are known to build on MacOS too, but I do not own a Mac and thus have
 no way to provide Mac binaries.
