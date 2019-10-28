@@ -8,6 +8,15 @@ License: MIT + file LICENCE
 MD5sum: 40f5409ea078ce498dc44abf29ccf055
 NeedsCompilation: yes
 
+Package: readsas
+Version: 0.1
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+MD5sum: 52d0b94b99f31c0e2a24840f21326fce
+NeedsCompilation: yes
+
 Package: readspss
 Version: 0.14
 Imports: Rcpp (>= 0.11.2)
