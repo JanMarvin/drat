@@ -14,7 +14,7 @@ Imports: Rcpp (>= 1.0.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets
 License: GPL (>= 2) | file LICENSE
-MD5sum: 52d0b94b99f31c0e2a24840f21326fce
+MD5sum: 9b4639419b0e3383eb1c42305ac5ecc9
 NeedsCompilation: yes
 
 Package: readspss
