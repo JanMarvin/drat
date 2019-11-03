@@ -36,6 +36,11 @@ sav file out there in the wild.
 R-package to import/export Stata dta files to and from R. The package source
 code is located at [sjewo/readstata13](https://github.com/sjewo/readstata13).
 
+### [readsas](https://github.com/JanMarvin/readsas)
+
+R-package to import SAS sas7bdat files to R.
+
+
 ## Binary builds
 
 Packages are known to build on MacOS too, but I do not own a Mac and thus have
