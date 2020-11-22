@@ -1,3 +1,12 @@
+Package: nlsur
+Version: 0.7
+Depends: R (>= 3.0.1)
+Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: MIT + file LICENCE
+MD5sum: 6cf4b611ed502d87917fc0f5b8cbfcfe
+
 Package: readsas
 Version: 0.2
 Imports: Rcpp (>= 1.0.2)
