@@ -1,0 +1,15 @@
+Package: readsas
+Version: 0.2
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+MD5sum: cf47317b959033176a6fd183d3b9d4b7
+
+Package: readspss
+Version: 0.14
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL-2 | file LICENSE
+MD5sum: a1a71cdc715cbbf3efc31368bbd8994a

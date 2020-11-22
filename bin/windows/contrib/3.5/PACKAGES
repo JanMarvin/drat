@@ -7,8 +7,32 @@ Suggests: testthat
 License: MIT + file LICENCE
 Archs: i386, x64
 
+Package: readsas
+Version: 0.2
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+Archs: i386, x64
+
+Package: readspss
+Version: 0.12
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL-2 | file LICENSE
+Archs: i386, x64
+
 Package: readspss
 Version: 0.13
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL-2 | file LICENSE
+Archs: i386, x64
+
+Package: readspss
+Version: 0.14
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets

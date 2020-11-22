@@ -1,4 +1,24 @@
 Package: nlsur
+Version: 0.6.5
+Depends: R (>= 3.0.1)
+Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: MIT + file LICENCE
+MD5sum: f03c9a4eeac31ec1ea443fee7cf3b4ed
+NeedsCompilation: yes
+
+Package: nlsur
+Version: 0.6
+Depends: R (>= 3.0.1)
+Imports: car, Matrix, methods, stats
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: MIT + file LICENCE
+MD5sum: 27e759227997a28e2e112c4203cb82d8
+NeedsCompilation: yes
+
+Package: nlsur
 Version: 0.7
 Depends: R (>= 3.0.1)
 Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
@@ -6,6 +26,15 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 License: MIT + file LICENCE
 MD5sum: 40f5409ea078ce498dc44abf29ccf055
+NeedsCompilation: yes
+
+Package: readsas
+Version: 0.1
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+MD5sum: bd4e548d3244fb35cded22473675ad0c
 NeedsCompilation: yes
 
 Package: readsas
@@ -18,12 +47,30 @@ MD5sum: 8a459322b5159690b62fd001e3906971
 NeedsCompilation: yes
 
 Package: readspss
+Version: 0.12
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL-2 | file LICENSE
+MD5sum: c99b174525d7b43e81629e463a9a5412
+NeedsCompilation: yes
+
+Package: readspss
+Version: 0.13
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets
+License: GPL-2 | file LICENSE
+MD5sum: b8479463d5880cb94c953fc753ab19dc
+NeedsCompilation: yes
+
+Package: readspss
 Version: 0.14
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets
 License: GPL-2 | file LICENSE
-MD5sum: 32cfa736b3be9da6d0402a764e586190
+MD5sum: c8c19250216df7555bfabb7a8ceed4d4
 NeedsCompilation: yes
 
 Package: readstata13
