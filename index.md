@@ -43,5 +43,5 @@ R-package to import SAS sas7bdat files to R.
 
 ## Binary builds
 
-Packages are known to build on MacOS too, but I do not own a Mac and thus have
-no way to provide Mac binaries.
+Binary builds for Mac OS are created via github action on github, but are untestet since I do not own a Mac and thus have
+no way to test Mac binaries.
