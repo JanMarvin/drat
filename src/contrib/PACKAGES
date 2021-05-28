@@ -25,7 +25,7 @@ Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 License: MIT + file LICENCE
-MD5sum: 40f5409ea078ce498dc44abf29ccf055
+MD5sum: e0367238b6db80270275dbe3580a9d82
 NeedsCompilation: yes
 
 Package: readsas
@@ -43,7 +43,7 @@ Imports: Rcpp (>= 1.0.2)
 LinkingTo: Rcpp
 Suggests: testthat, foreign, datasets
 License: GPL (>= 2) | file LICENSE
-MD5sum: 8a459322b5159690b62fd001e3906971
+MD5sum: 28fb5ca29a5dad1f395a5ee99ced9a64
 NeedsCompilation: yes
 
 Package: readspss
@@ -70,7 +70,16 @@ Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets
 License: GPL-2 | file LICENSE
-MD5sum: c8c19250216df7555bfabb7a8ceed4d4
+MD5sum: b1120abe96bb5b0906bf698ffe394131
+NeedsCompilation: yes
+
+Package: readstata13
+Version: 0.10.0
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-2 | file LICENSE
+MD5sum: ee705a5a3c53c48b75b64f2c5e627f8d
 NeedsCompilation: yes
 
 Package: readstata13
