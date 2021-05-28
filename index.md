@@ -1,7 +1,7 @@
 # Drat Repo for JanMarvin
 
 Since I neither have enough time nor am I willing enough to bother with CRAN for
-my builds, I am providing ziped sources and binaries for Windows of my 
+my builds, I am providing ziped sources and binaries for Windows and Mac for my 
 R-packages in this drat repo.
 
 You can include it using
@@ -13,7 +13,9 @@ drat::addRepo("JanMarvin")
 Afterwards you can install simply using `install.packages()`.
 
 Currently it contains [`nlsur`](https://github.com/JanMarvin/nlsur), 
-[`readspss`](https://github.com/JanMarvin/readspss) and
+[`readspss`](https://github.com/JanMarvin/readspss),
+[`readsas`](https://github.com/JanMarvin/readsas),
+and
 [`readstata13`](https://github.com/sjewo/readstata13).
 
 
@@ -43,5 +45,4 @@ R-package to import SAS sas7bdat files to R.
 
 ## Binary builds
 
-Packages are known to build on MacOS too, but I do not own a Mac and thus have
-no way to provide Mac binaries.
+Binary packages are built with github actions.
