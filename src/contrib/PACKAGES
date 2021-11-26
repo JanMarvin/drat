@@ -74,6 +74,15 @@ MD5sum: b1120abe96bb5b0906bf698ffe394131
 NeedsCompilation: yes
 
 Package: readspss
+Version: 0.15.2
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
+License: GPL-2 | file LICENSE
+MD5sum: 06ca867cb9dd5861ea6b97b5e2490694
+NeedsCompilation: yes
+
+Package: readspss
 Version: 0.15
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH

@@ -16,12 +16,12 @@ License: GPL (>= 2) | file LICENSE
 MD5sum: a812bf63655d6a015457ddab1d9bb63c
 
 Package: readspss
-Version: 0.14
+Version: 0.15.2
 Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
-Suggests: testthat, foreign, datasets
+Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
 License: GPL-2 | file LICENSE
-MD5sum: ddfde1aaddd52ec6ae2598baaa78ff8b
+MD5sum: e62fc686a2b5e3d5830bcd58670275a5
 
 Package: readspss
 Version: 0.15
