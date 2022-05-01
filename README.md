@@ -12,7 +12,8 @@ drat::addRepo("JanMarvin")
 
 Afterwards you can install simply using `install.packages()`.
 
-Currently it contains [`nlsur`](https://github.com/JanMarvin/nlsur), 
+Currently it contains [`diffr2`](https://github.com/JanMarvin/diffr2), 
+[`nlsur`](https://github.com/JanMarvin/nlsur), 
 [`readspss`](https://github.com/JanMarvin/readspss),
 [`readsas`](https://github.com/JanMarvin/readsas),
 and
@@ -20,6 +21,10 @@ and
 
 
 ## R-packages in this repo
+
+### [diffr2](https://github.com/JanMarvin/diffr2)
+
+R-package to create nice diffs.
 
 ### [nlsur](https://github.com/JanMarvin/nlsur)
 
