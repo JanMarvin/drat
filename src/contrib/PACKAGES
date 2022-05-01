@@ -1,3 +1,10 @@
+Package: diffr2
+Version: 1.2
+Imports: V8, htmlwidgets
+License: MIT + file LICENSE
+MD5sum: 31c525a33f5c10c02da95746050d819b
+NeedsCompilation: no
+
 Package: nlsur
 Version: 0.6.5
 Depends: R (>= 3.0.1)
@@ -25,7 +32,7 @@ Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat
 License: MIT + file LICENCE
-MD5sum: e0367238b6db80270275dbe3580a9d82
+MD5sum: 03676d0f30540d369712ec47ca230fb0
 NeedsCompilation: yes
 
 Package: readsas
@@ -43,7 +50,7 @@ Imports: Rcpp (>= 1.0.2)
 LinkingTo: Rcpp
 Suggests: testthat, foreign, datasets
 License: GPL (>= 2) | file LICENSE
-MD5sum: 28fb5ca29a5dad1f395a5ee99ced9a64
+MD5sum: f27cb4ece155de848209ed0efe68d89f
 NeedsCompilation: yes
 
 Package: readspss
@@ -79,7 +86,7 @@ Imports: Rcpp (>= 0.11.2)
 LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
 License: GPL-2 | file LICENSE
-MD5sum: 06ca867cb9dd5861ea6b97b5e2490694
+MD5sum: 10c3988189b4c42781a75e2f295a29d2
 NeedsCompilation: yes
 
 Package: readspss

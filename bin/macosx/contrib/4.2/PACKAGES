@@ -1,0 +1,30 @@
+Package: diffr2
+Version: 1.2
+Imports: V8, htmlwidgets
+License: MIT + file LICENSE
+MD5sum: 402283404c19716b9e577bcd6cfc5b5d
+
+Package: nlsur
+Version: 0.7
+Depends: R (>= 4.1.0)
+Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: MIT + file LICENCE
+MD5sum: d1234e61fc86d9cccd978b6943579865
+
+Package: readsas
+Version: 0.2
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+MD5sum: 7047b4301f67bd10d12e2447cfcabeac
+
+Package: readspss
+Version: 0.15.2
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
+License: GPL-2 | file LICENSE
+MD5sum: 6458ef36ba77eace89325fd48ff83f09

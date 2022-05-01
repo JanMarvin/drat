@@ -1,0 +1,29 @@
+Package: diffr2
+Version: 1.2
+Imports: V8, htmlwidgets
+License: MIT + file LICENSE
+
+Package: nlsur
+Version: 0.7
+Depends: R (>= 4.1.0)
+Imports: Rcpp (>= 1.0.1), Matrix, methods, stats
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: MIT + file LICENCE
+Archs: x64
+
+Package: readsas
+Version: 0.2
+Imports: Rcpp (>= 1.0.2)
+LinkingTo: Rcpp
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+Archs: x64
+
+Package: readspss
+Version: 0.15.2
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
+License: GPL-2 | file LICENSE
+Archs: x64
