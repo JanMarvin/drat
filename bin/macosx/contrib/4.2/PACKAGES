@@ -28,3 +28,11 @@ LinkingTo: Rcpp, BH
 Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
 License: GPL-2 | file LICENSE
 MD5sum: 6458ef36ba77eace89325fd48ff83f09
+
+Package: readstata13
+Version: 0.10.0
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: testthat
+License: GPL-2 | file LICENSE
+MD5sum: 7443977141f4cc2741977b2056dda3e2

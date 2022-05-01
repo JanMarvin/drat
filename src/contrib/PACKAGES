@@ -104,7 +104,7 @@ Imports: Rcpp (>= 0.11.5)
 LinkingTo: Rcpp
 Suggests: testthat
 License: GPL-2 | file LICENSE
-MD5sum: ee705a5a3c53c48b75b64f2c5e627f8d
+MD5sum: 3f02a78f0a071fd253fda27a33f5374e
 NeedsCompilation: yes
 
 Package: readstata13
