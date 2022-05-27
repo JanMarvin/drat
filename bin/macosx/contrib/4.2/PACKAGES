@@ -29,6 +29,14 @@ Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
 License: GPL-2 | file LICENSE
 MD5sum: 6458ef36ba77eace89325fd48ff83f09
 
+Package: readspss
+Version: 0.16.1
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
+License: GPL-2 | file LICENSE
+MD5sum: 45732727b0063d4c338e8f20e6e8e338
+
 Package: readstata13
 Version: 0.10.0
 Imports: Rcpp (>= 0.11.5)

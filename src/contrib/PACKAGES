@@ -98,6 +98,15 @@ License: GPL-2 | file LICENSE
 MD5sum: c752e142972bdd3a7721a60966b73194
 NeedsCompilation: yes
 
+Package: readspss
+Version: 0.16.1
+Imports: Rcpp (>= 0.11.2)
+LinkingTo: Rcpp, BH
+Suggests: testthat, foreign, datasets, knitr, rmarkdown, covr
+License: GPL-2 | file LICENSE
+MD5sum: 3070ca9ebe49ed12964f82193147a60d
+NeedsCompilation: yes
+
 Package: readstata13
 Version: 0.10.0
 Imports: Rcpp (>= 0.11.5)
