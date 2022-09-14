@@ -21,6 +21,15 @@ Suggests: testthat, foreign, datasets
 License: GPL (>= 2) | file LICENSE
 MD5sum: 7047b4301f67bd10d12e2447cfcabeac
 
+Package: readsas
+Version: 0.5
+Depends: R (>= 3.4.0)
+Imports: Rcpp, stringi
+LinkingTo: Rcpp
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+MD5sum: 048d04428b3833e1fb2e4ef2be1ec6c5
+
 Package: readspss
 Version: 0.15.2
 Imports: Rcpp (>= 0.11.2)

@@ -53,6 +53,16 @@ License: GPL (>= 2) | file LICENSE
 MD5sum: f27cb4ece155de848209ed0efe68d89f
 NeedsCompilation: yes
 
+Package: readsas
+Version: 0.5
+Depends: R (>= 3.4.0)
+Imports: Rcpp, stringi
+LinkingTo: Rcpp
+Suggests: testthat, foreign, datasets
+License: GPL (>= 2) | file LICENSE
+MD5sum: a384d3736887ee6988a95d72b742a8ad
+NeedsCompilation: yes
+
 Package: readspss
 Version: 0.12
 Imports: Rcpp (>= 0.11.2)
